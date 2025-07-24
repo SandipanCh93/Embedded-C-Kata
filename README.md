@@ -1,5 +1,5 @@
 # Embedded-C-Kata
-<!-- *✅ 30-Day Embedded C Kata Plan
+*✅ 30-Day Embedded C Kata Plan
 (Each kata takes ~30–60 min. Use a local compiler or an embedded dev board for realism.)
 
 Week 1: Pointers & Memory Safety (Foundations)
@@ -72,4 +72,4 @@ Day 28: Add MISRA compliance review + static analysis using a tool like cppcheck
 
 Day 29: Simulate an ISO 26262 safety mechanism: dual read-back verification of registers.
 
-Day 30: Final Project – Build a mock “embedded framework” integrating UART, SPI, RTOS tasks, and watchdog simulation.* -->
+Day 30: Final Project – Build a mock “embedded framework” integrating UART, SPI, RTOS tasks, and watchdog simulation.*
