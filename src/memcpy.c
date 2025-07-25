@@ -1,5 +1,5 @@
 #include <stdio.h>
-void *memcpy(void *dest, const void *src, size_t n)
+void *memcpy_s(void *dest, const void *src, size_t n)
 {
     char *d = (char *)dest;
     const char *s = (const char *)src;
@@ -7,6 +7,7 @@ void *memcpy(void *dest, const void *src, size_t n)
     {
         *d++ = *s++;
     }
+    return dest;
 }
 int main()
 {
@@ -14,7 +15,7 @@ int main()
     char destination[20];
     printf("Enter a string to copy: ");
     fgets(source, sizeof(source), stdin);
-    memcpy(destination, source, sizeof(source));
+    memcpy_s(destination, source, sizeof(source));
 
     printf("Source: %s\n", source);
     printf("Destination: %s\n", destination);

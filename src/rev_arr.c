@@ -15,11 +15,11 @@ void reverse_array(int *arr, int size) {
 int main() {
     int n = 0;
     printf("Enter the size of array\n");
-    scanf("%d", &n);
+    scanf_s("%d", &n);
     int my_array[n];
     printf("Enter the elements of array\n");
     for (int i = 0; i < n; i++) {
-        scanf("%d", &my_array[i]);
+        scanf_s("%d", &my_array[i]);
     }
     int size = sizeof(my_array) / sizeof(my_array[0]);
 
